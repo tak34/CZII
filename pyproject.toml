@@ -5,10 +5,14 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "copick>=0.7.0",
+    "copick-utils",
     "imantics>=0.1.12",
     "ipykernel>=6.29.5",
     "kaggle>=1.6.17",
     "matplotlib>=3.9.3",
+    "monai-weekly[mlflow]>=1.5.dev2449",
+    "monai[all]>=1.4.0",
     "numpy==1.26.4",
     "opencv-python>=4.10.0.84",
     "pandas>=2.2.3",
@@ -16,5 +20,10 @@ dependencies = [
     "scikit-image>=0.24.0",
     "scikit-learn>=1.5.2",
     "tensorflow>=2.14.0",
+    "torchinfo>=1.8.0",
+    "tqdm>=4.67.1",
     "zarr>=2.18.3",
 ]
+
+[tool.uv.sources]
+copick-utils = { git = "https://github.com/copick/copick-utils.git" }

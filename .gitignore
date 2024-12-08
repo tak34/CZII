@@ -13,3 +13,4 @@ wheels/
 *.zip
 raw
 proc
+*/mlruns
