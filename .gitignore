@@ -29,3 +29,6 @@ runs
 *.tiff
 *.ico
 *.svg
+.env
+
+notebooks/yolo11_try/wandb
